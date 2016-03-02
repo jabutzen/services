@@ -13,7 +13,7 @@ Menu option 2 displays the text file in its entirety.
 Menu option 3 gives the user the ability to search the text file and display on screen the lines associated with the month searched.
 ![menu 3](https://cloud.githubusercontent.com/assets/16652453/13447155/8998d61e-dfd6-11e5-9930-2ea9c4e87a5d.jpg)
 
-Menu option 4 gives the user the ability to search the text file for a specific name, and display that line from the text file.
+Menu option 4 gives the user the ability to search the text file for a specific name, and display that line from the text file. Also, as a customer comes in multiple times, this option will display that customer's history.
 ![menu 4](https://cloud.githubusercontent.com/assets/16652453/13447160/8effbb54-dfd6-11e5-8043-86bba183cdc2.jpg)
 
 Menu option 5 ends the program.
