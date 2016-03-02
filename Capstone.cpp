@@ -89,7 +89,7 @@ void enterName()
 			mileage = curMiles + 3000;
 			cin.ignore(100, '\n');
 			//write the record
-			outFile << name << ", " << vehicle << ", " << nextDate << ", " << mileage << endl;
+			outFile << name << ", " << vehicle << ", " << nextDate << ", " << mileage << '\n' << endl;
 		} //end if
 		else
 		cout << "File did not open correctly." << endl;
