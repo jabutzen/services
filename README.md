@@ -10,7 +10,7 @@ Menu option 1 generates the customer list and saves it in a sequential text file
 Menu option 2 displays the text file in its entirety.
 ![menu 2](https://cloud.githubusercontent.com/assets/16652453/13447143/7c2525aa-dfd6-11e5-9f4c-a68844ebde3d.jpg)
 
-Menu option 3 gives the user the ability to search the text file and display on screen the lines associated with the month searched.
+Menu option 3 gives the user the ability to search the text file and display on screen the lines associated with the month searched. Only the spelled out month name is required to perform the search.
 ![menu 3](https://cloud.githubusercontent.com/assets/16652453/13447155/8998d61e-dfd6-11e5-9930-2ea9c4e87a5d.jpg)
 
 Menu option 4 gives the user the ability to search the text file for a specific name, and display that line from the text file. Also, as a customer comes in multiple times, this option will display that customer's history.
