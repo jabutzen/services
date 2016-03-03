@@ -69,7 +69,9 @@ void enterName()
 	//create txt file and open file
 	ofstream outFile;
 	//user enters customers name
-	cout << "Enter customer's first and last name (-1 to stop): ";
+	//names should be entered with the first letter
+	//of the first and last names in uppercase
+	cout << "Enter customer's First and Last name (-1 to stop): ";
 	getline(cin, name);
 	//begin while
 	while (name != "-1") {
@@ -89,13 +91,13 @@ void enterName()
 			mileage = curMiles + 3000;
 			cin.ignore(100, '\n');
 			//write the record
-			outFile << name << ", " << vehicle << ", " << nextDate << ", " << mileage << '\n' << endl;
+			outFile << name << ", " << vehicle << ", " << nextDate << ", " << mileage << '\n';
 		} //end if
 		else
 		cout << "File did not open correctly." << endl;
 		//user enters next name
 		cout << endl << endl;
-		cout << "Enter customer's first and last name (-1 to stop): ";
+		cout << "Enter customer's First and Last name (-1 to stop): ";
 		getline(cin, name);
 		//close the file
 		outFile.close();
@@ -103,9 +105,6 @@ void enterName()
 } //end of enterName function
 
 //display all services
-//ideally I'd like to have the dates automatically
-//sorted and organized, but I'm still
-//learning, and haven't come across that
 void displayMonth()
 {
     //declare string variables
@@ -155,6 +154,8 @@ void searchMonth()
     string nLine = "";
 
     //user enters month to search
+    //only the full month name needs to be entered,
+    //the first letter in uppercase
     cout << "Enter month to search: ";
     cin >> sWord;
     cout << endl;
@@ -188,8 +189,10 @@ void searchName()
     string nString = "";
     string nLine = "";
 
-    //prompt user for name of item to search for
-    cout << "Please enter the name of the customer: ";
+    //prompt user for name of item to search for.
+    //Names need to be entered with the first letter
+    //of the first and last names in uppercase
+    cout << "Please enter the customer's First and Last name: ";
     //assign input from keyboard to sWord variable
     getline(cin, sWord);
     //create searchinv ifstream object
